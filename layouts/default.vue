@@ -17,6 +17,15 @@
             <nuxt-link class="navbar-item is-active is-size-5 has-text-weight-semibold" to="/">
               Home
             </nuxt-link>
+            <nuxt-link class="navbar-item is-active is-size-5 has-text-weight-semibold" to="/About">
+              About
+            </nuxt-link>
+            <nuxt-link class="navbar-item is-active is-size-5 has-text-weight-semibold" to="/Contact">
+              Contact
+            </nuxt-link>
+            <nuxt-link class="navbar-item is-active is-size-5 has-text-weight-semibold" to="/Discover">
+              Discover
+            </nuxt-link>
           </div>
         </div>
       </div>
