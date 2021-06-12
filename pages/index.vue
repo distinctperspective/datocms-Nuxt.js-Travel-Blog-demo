@@ -84,6 +84,9 @@
                   :class="['column is-5', index === 0 && 'is-offset-1']"
                 >
                   <div class="content is-medium">
+                    <figure class="image">
+                      <datocms-image :data="post.coverImage.responsiveImage" />
+                    </figure>
                     <h2 class="subtitle is-5 has-text-grey">
                       {{ formatDate(post.publicationDate) }}
                     </h2>
